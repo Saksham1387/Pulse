@@ -208,6 +208,7 @@ impl Widget for &App {
             Constraint::Percentage(10), // Disk
         ];
 
+        
         let system_info_text = format!(
             " OS: {}\n Total Memory: {}\n Used memory: {}\n Total swap: {}\n No. of CPUs: {}",
             System::name().unwrap_or_default(),
