@@ -491,15 +491,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70"
 
 [[package]]
-name = "htop-clone"
-version = "0.1.0"
-dependencies = [
- "crossterm",
- "ratatui",
- "sysinfo",
-]
-
-[[package]]
 name = "id-arena"
 version = "2.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -984,6 +975,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8fd00f0bb2e90d81d1044c2b32617f68fcb9fa3bb7640c23e9c748e53fb30934"
 dependencies = [
  "unicode-ident",
+]
+
+[[package]]
+name = "pulse"
+version = "0.1.0"
+dependencies = [
+ "crossterm",
+ "ratatui",
+ "sysinfo",
 ]
 
 [[package]]

@@ -1,5 +1,10 @@
 [package]
-name = "htop-clone"
+name = "pulse"
+description = "A lightweight terminal process monitor (htop alternative)"
+repository = "https://github.com/Saksham1387/Pulse"
+license = "MIT"
+keywords = ["htop", "process-monitor", "tui", "system", "cli"]
+categories = ["command-line-utilities"]
 version = "0.1.0"
 edition = "2024"
 
@@ -7,3 +12,7 @@ edition = "2024"
 crossterm = "0.29.0"
 ratatui = "0.30.1"
 sysinfo = "0.38.4"
+
+[[bin]]
+name = "pulse"
+path = "src/main.rs"
